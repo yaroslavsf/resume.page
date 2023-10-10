@@ -9,12 +9,14 @@ import tsImg from '../../../../../public/ts.svg'
 import javaImg from '../../../../../public/java.svg'
 import TextHeading from "../../typography/TextHeading";
 import tailwindImg from '../../../../../public/tailwind.svg'
+import SectionHeading from "../../typography/SectionHeading";
 
 const SkillsSection = () => {
     return (
-        <div className="h-100">
+        <div className="h-fit flex flex-col justify-center gap-y-14">
+            <SectionHeading title="Skills"/>
             <div className="w-full h-fit flex flex-col items-center">
-                <div className="w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3 mb-4">
+                <div className="w-full md:w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3 mb-4">
                     <TextHeading title="Languages"/>
                     <div className="grid grid-cols-6 mt-2">
                         <SkillCard title="Java" img={javaImg} present={true}/>
@@ -25,7 +27,7 @@ const SkillsSection = () => {
                         <SkillCard present={false}/>
                     </div>
                 </div>
-                <div className="w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3 mb-4">
+                <div className="w-full md:w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3 mb-4">
                 <TextHeading title="Frontend"/>
                     <div className="grid grid-cols-6 mt-2">
                         <SkillCard title="Next.js" img={nextImg} present={true}/>
@@ -36,7 +38,7 @@ const SkillsSection = () => {
                         <SkillCard present={false}/>
                     </div>
                 </div>
-                <div className="w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3">
+                <div className="w-full md:w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3">
                 <TextHeading title="Backend"/>
                     <div className="grid grid-cols-6 mt-2">
                         <SkillCard title="Spring Boot" img={springImg} present={true}/>

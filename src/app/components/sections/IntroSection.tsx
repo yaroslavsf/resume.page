@@ -3,20 +3,16 @@ import meImg from "../../../../public/me.png"
 import Image from "next/image";
 const IntroSection = () => {
     return (
-        <div className="h-100 mb-20 mt-20">
+        <div className="h-[88vh] sm:h-[58vh] flex flex-col justify-around">
             <div className="flex flex-col sm:flex-row justify-center h-full ">
                 <div className="flex justify-center w-full items-center">
-                    <div className="w-fit absolute mb-5" >
-                        {/* animated part starts */}
-                        <span
-                            className=" inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform"
-                        >
-                            <TextHeading title={" Hi there! My name is Yaroslav Zyvotovskyi"}/>
-                        </span>
-                        <span
-                            className="box-border inline-block w-1 h-10 bg-white -mb-1 h-5 animate-cursor will-change-transform"
-                        ></span>
-                        {/* animated part ends */}
+                    <div className="w-fit mb-5" >
+                         <h3 className="p-5 text-xl font-semibold text-gray-200 dark:text-white">
+                         Hi there,<br/> my name is Yaroslav Zhyvotovskyi,
+                         I&apos;m 18 y.o. student that is looking for new opportunities in IT. 
+                         I have a passion for technologies and I&apos;m always up to date with new advancements 
+                         
+                        </h3>
                     </div>
                 </div>
 
