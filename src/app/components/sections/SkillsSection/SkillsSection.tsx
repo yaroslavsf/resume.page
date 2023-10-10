@@ -13,7 +13,7 @@ import SectionHeading from "../../typography/SectionHeading";
 
 const SkillsSection = () => {
     return (
-        <div className="h-fit flex flex-col justify-center gap-y-14">
+        <div className="h-fit m-6 sm:m-0 flex flex-col justify-center gap-y-14">
             <SectionHeading title="Skills"/>
             <div className="w-full h-fit flex flex-col items-center">
                 <div className="w-full md:w-11/12 h-fit border border-gray-500 rounded-lg shadow p-3 mb-4">
