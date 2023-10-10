@@ -3,7 +3,7 @@ import meImg from "../../../../public/me.png"
 import Image from "next/image";
 const IntroSection = () => {
     return (
-        <div className="h-[88vh] sm:h-[58vh] flex flex-col justify-around">
+        <div className="h-[88vh] mb-6 sm:mb-0  sm:h-[58vh] flex flex-col justify-around">
             <div className="flex flex-col sm:flex-row justify-center h-full ">
                 <div className="flex justify-center w-full items-center">
                     <div className="w-fit mb-5" >
