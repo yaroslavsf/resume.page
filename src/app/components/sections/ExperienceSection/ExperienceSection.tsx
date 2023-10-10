@@ -4,7 +4,7 @@ import SectionHeading from "../../typography/SectionHeading";
 
 const ExperienceSection = () => {
     return (
-        <div className="h-screen md:h-[70vh] lg:h-[30vh] md:mb-16 flex flex-col justify-center gap-y-14">
+        <div className="h-screen md:h-[70vh] lg:h-[30vh] md:mb-16 flex flex-col justify-center gap-y-10 sm:gap-y-14">
             <SectionHeading title="Experience" />
             <div className="flex justify-center" >
                 <ol className="items-center lg:flex">
