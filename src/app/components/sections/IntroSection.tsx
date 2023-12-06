@@ -9,8 +9,8 @@ const IntroSection = () => {
                     <div className="w-fit mb-5" >
                          <h3 className="p-5 text-xl font-semibold text-gray-200 dark:text-white">
                          Hi there,<br/> my name is Yaroslav Zhyvotovskyi,
-                         I&apos;m 18 y.o. student that is looking for new opportunities in IT. 
-                         I have a passion for technologies and I&apos;m always up to date with new advancements 
+                         I&apos;m 18 y.o. student and professional squash player.
+                         I have a passion for technologies and I&apos;m always up to date with new advancements.
                          
                         </h3>
                     </div>
