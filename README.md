@@ -1,3 +1,11 @@
-Hosted resume page on: https://yaroslav.biz/
+## Hosted on
+https://yaroslav.biz/
 
-Using Next.js(ts)
+## Getting started 
+1. start app
+    - with docker `docker compose up`
+    - or locally:
+        - install dependencies `yarn install`
+        - run `yarn run dev`
+
+2. open the website on: `http://localhost:3000`

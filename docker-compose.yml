@@ -1,0 +1,13 @@
+version: "1"
+
+services:
+  docker-nginx-next:
+    # build image from Dockerfile
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    # set production env for node.js
+    environment:
+      NODE_ENV: production
